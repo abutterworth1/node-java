@@ -50,7 +50,12 @@
             ],
             'libraries': [
               '-l<(javahome)/lib/jvm.lib'
-            ]
+            ],
+             "msvs_settings": {
+                "VCCLCompilerTool": {
+                  "AdditionalOptions": [ "/permissive" ]
+                }
+              }
           }
         ],
         ['OS=="linux"',
