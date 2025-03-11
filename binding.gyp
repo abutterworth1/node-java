@@ -53,7 +53,10 @@
             ],
              "msvs_settings": {
                 "VCCLCompilerTool": {
-                  "AdditionalOptions": [ "/permissive" ]
+                  "AdditionalOptions": [
+                      "/std:c++17",
+                      "/permissive-"
+                   ]
                 }
               }
           }
